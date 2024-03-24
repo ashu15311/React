@@ -1,0 +1,40 @@
+#root {
+  width: 1280px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+  background-color: rgb(95, 212, 177);
+  height: 100vh;
+}
+
+.navbar{
+  text-align: left;
+  background-color: rgb(22, 211, 154);
+  box-shadow: 5px black;
+}
+
+.navbar li{
+  display: inline;
+  padding: 5px 5px;
+  font-size: larger;
+  font-weight:600 ;
+}
+
+.links{
+  color: rgb(74, 2, 241);
+  text-decoration: none;
+  padding-left: 5px;
+}
+
+.links:hover{
+  color: green;
+  text-decoration: none;
+}
+
+.navbar .active{
+  color: rgb(254, 4, 204);
+}
+.src {
+  display: flex;
+  justify-content: end;
+}
